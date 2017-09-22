@@ -1,0 +1,82 @@
+/* Smart Table CSS */
+.st-sort-ascent:before {
+	content: '\25B2';
+}
+
+.st-sort-descent:before {
+	content: '\25BC';
+}
+
+.select-page {
+	width: 50px;
+	text-align: center;
+}
+
+.pagination li a input {
+	padding: 0;
+	margin: -5px 0;
+}
+/* End Smart Table CSS */
+
+.centered {
+	margin: 10px;
+}
+
+.navbar-right .theme-header-right, li {
+	list-style: none;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+@media ( max-width :768px) {
+	.theme-app.menu .theme-header-right-logo {
+		display: inline-block !important;
+	}
+}
+
+#overlay {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 4px;
+	height: 220px; z-index : 1000;
+	background-color: #f5f5f5;
+	z-index: 1000; background-color : #f5f5f5;
+	border: 1px solid #3c763d;
+}
+
+#overlay div {
+	width: 400px;
+	margin: 90px auto;
+}
+
+.user-data {
+    padding: 10px;
+}
+
+.user-data,tr>th {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.user-data,tr>td {
+    text-align: left;
+}
+
+.fa-stack {
+	height: 3em !important;
+}
+
+.theme-header-right > .navbar-brand {
+	padding-top: 3px !important;
+}
+
+@media screen and (max-width: 767px) {
+	.table-responsive {
+		width: 0px !important;
+		border: none !important;
+	}
+}

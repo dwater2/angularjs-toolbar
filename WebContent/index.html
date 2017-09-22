@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon">
+    <title>Donizete Waterkemper</title>
+	<!--[if lt IE 9]>
+	      <script src="assets/libs/html5shiv.min.js"></script>
+	      <script src="assets/libs/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- Project CSS -->	
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/angular-csp.css" rel="stylesheet">
+	
+	<!-- Bootstrap Core CSS -->	
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Datetime Picker CSS -->
+    <link href="assets/css/daterangepicker-bs3.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/theme-padrao.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body ng-controller="Controller as ctrl">
+    <h1>AngularJS 1.5: Toolbar</h1>
+	<toolbar type="help,clean,search,create,delete,print,save,back,export" controller="ctrl"></toolbar>
+	<p>{{ctrl.btnActivate}}</p>
+    <footer>
+        <hr/>
+        <a href="#"> Donizete Waterkemper</a>
+    </footer>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/angular.js"></script>
+    <script src="assets/js/app.js"></script>
+	<script src="componentes/toolbar.directive.js"></script>
+</body>
+
+</html>
